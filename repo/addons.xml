@@ -1335,7 +1335,7 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.14" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.15" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -1424,6 +1424,33 @@ use it instead of this addon. All rights on content are reserved by Bulsatcom.</
        <screenshot>resources/screenshot-03.jpg</screenshot>
 	</assets>
   </extension>
+</addon>
+
+<addon id="plugin.video.highlightsfootball" name="Highlightsfootball" version="1.0.0" provider-name="Johnie">
+ <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+     <import addon="script.module.urlresolver" version="2.10.0"/>
+ </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+     <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+     <summary lang="bg">Приставка за съдържание при поискване от Highlightsfootball</summary>
+     <summary lang="en">Addon for VOD from Highlightsfootball</summary>
+    <description lang="bg">Приставка за съдържание при поискване от Highlightsfootball. Препоръчително е използването на широколентова интернет връзка!</description>
+     <description lang="en">Addon for watching on demand videos from Highlightsfootball. Broadband internet connection is recomended!</description>
+     <disclaimer lang="bg">Някои елементи на тази приставка, може да не са легални в държавата ви - проверете и инсталирайте на ваша отговорност.</disclaimer>
+     <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+     <language>bg</language>
+     <platform>all</platform>
+     <forum></forum>
+     <website></website>
+     <email></email>
+	 <assets>
+	   <icon>resources/icon.png</icon>
+       <fanart>resources/fanart.jpg</fanart>
+	</assets>
+ </extension>
 </addon>
 
 <addon id="plugin.program.braviacontrol" name="Bravia Control" version="0.0.1b" provider-name="kodi1">
