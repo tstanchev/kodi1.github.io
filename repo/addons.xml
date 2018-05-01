@@ -147,10 +147,11 @@ use it instead of this addon. All rights on content are reserved by MTEL.</discl
   </extension>
 </addon>
 
-<addon id="plugin.video.envymovies" name="ENVY[COLOR FfE36212]MOVIES[/COLOR]" version="1.1.0" provider-name="Johnie">
+<addon id="plugin.video.envymovies" name="ENVY[COLOR FfE36212]MOVIES[/COLOR]" version="1.1.1" provider-name="Johnie">
  <requires>
      <import addon="xbmc.python" version="2.1.0"/>
      <import addon="script.module.urlresolver" version="2.10.0"/>
+	 <import addon="script.module.beautifulsoup4" version="4.3.2"/>
  </requires>
  <extension point="xbmc.python.pluginsource" library="default.py">
      <provides>video</provides>
