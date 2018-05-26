@@ -120,7 +120,7 @@
 
 <addon id="plugin.video.mtelnow"
        name="[COLOR FFffEE0937]MTEL NOW[/COLOR]"
-       version="1.0.1b"
+       version="1.0.1c"
        provider-name="Johnie">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
