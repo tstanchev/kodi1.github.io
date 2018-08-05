@@ -219,7 +219,7 @@ use it instead of this addon. All rights on content are reserved by MTEL.</discl
   </extension>
 </addon>
 
-<addon id="plugin.video.dramafever" name="DRAMAFEVER" version="0.5.4" provider-name="Majide">
+<addon id="plugin.video.dramafever" name="DRAMAFEVER" version="0.5.5" provider-name="Majide">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -235,10 +235,7 @@ use it instead of this addon. All rights on content are reserved by MTEL.</discl
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   	<forum>https://kodibg.org/forum/thread-79.html</forum>
   	<website>https://www.dramafever.com</website>
-  	<news>Fixed: Listing of series with more than 100 episodes;
-Fixed: Video seeking for the all titles;
-Fixed: Displaying the episode plot in Estuary Skin;
-Removed: Dependance from script.video.F4mProxy, Hooray!</news>
+  	<news>Fixed: Browsing episode lists</news>
   	<assets>
 	   <icon>resources/icon.png</icon>
        <fanart>resources/fanart.jpg</fanart>
@@ -867,7 +864,7 @@ Note: http://www.bgtv-on.com/ account is required.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.vbox7" name="VBOX7" version="0.3.16" provider-name="Majide">
+<addon id="plugin.video.vbox7" name="VBOX7" version="0.3.17" provider-name="Majide">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -883,9 +880,10 @@ Note: http://www.bgtv-on.com/ account is required.</description>
   	<disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
   	<language>bg</language>
   	<platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
   	<forum>https://kodibg.org/forum/thread-12.html</forum>
   	<website>http://vbox7.com</website>
-  	<news>Поправени са няколко дребни бъга; Добавено е частично описание на видеата, които разполагат с такова</news>
+  	<news>Оптимизации в зареждането на субтитри и автоматично избиране на най-високото качество; Подготовка за въвеждане на InputStream.Adaptive Addon; Преаранжиране настройките, фенарта и скрийншотите на приставката; Пълно описание на видеата, които разполагат с такова</news>
 	<assets>
 	   <icon>resources/icon.png</icon>
        <fanart>resources/fanart.jpg</fanart>
